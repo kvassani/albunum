@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <!-- título e descrição -->
+        <title>albunum</title>
+
+        <!-- meta tags obrigatórias/necessárias -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, maximum-scale=1.0, minimum-scale=1.0">
+
+        <meta name="googlebot" content="notranslate"> <!-- impedir tradução do bot do google -->
+
+        <!-- meta tags para embed -->
+        <meta name="author" content="decov">
+        <meta name="description" content="albunum it is an place that storage and cache all kind of albums, singles and eps.">
+
+        <!-- open graph -->
+        <meta property="og:title" content="albunum">
+        <meta property="og:description" content="albunum it is an place that storage and cache all kind of albums, singles and eps.">
+        <meta property="og:image" content="res/tetrio_social.png">
+
+        <!-- twitter cards -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:domain" value="decov.github.io/albunum">
+        <meta name="twitter:url" value="https://decov.github.io/albunum/">
+        <meta name="twitter:description" value="albunum it is an place that storage and cache all kind of albums, singles and eps.">
+        <meta name="twitter:image" content="res/tetrio_social.png">
+
+        <!-- ícones -->
+        <link rel="icon" type="image/x-icon" id="favicon" href="res/favicon.ico">
+
+        <!-- css -->
+        <link rel="stylesheet" href="css/tetrio.css">
+        
+        <!-- scripts -->
+        <script src="bootstrap.js"></script>
+        <script async src="https://cdn.xsolla.net/embed/paystation/1.2.3/widget.min.js"></script>
+
+        <script>
+            var _paq = window._paq || [];
+            
+            const uid = localStorage.getItem("moonKagariUsername") || localStorage.getItem("lastUsername");
+            
+            uid && "X-ANON" !== uid && _paq.push(
+                [
+                    "setUserId",
+                    uid
+                ]
+            ),
+            
+            _paq.push(
+                [
+                    "trackPageView"
+                ]
+            ),
+
+            _paq.push(
+                [
+                    "enableLinkTracking"
+                ]
+            ),
+            
+            function() {
+                var e = "//moon.kagari.moe/", a = (_paq.push(
+                    [
+                        "setTrackerUrl",
+                        e + "matomo.php"
+                    ]
+                ),
+                
+                _paq.push(
+                    [
+                        "setSiteId",
+                        "3"
+                    ]
+                ),
+                
+                _paq.push(
+                    [
+                        "enableHeartBeatTimer"
+                    ]
+                ), document),
+                
+                t = a.createElement("script"), a = a.getElementsByTagName("script")[0];
+                
+                t.type = "text/javascript",
+                t.async =! 0,
+                t.defer =! 0,
+                t.src = e + "matomo.js",
+                
+                a.parentNode.insertBefore(t, a)
+            }()
+        </script>
+    </head>
+
+    <body data-v="creamykagarin18451" class="socket_offline">
+        <noscript>
+            <iframe
+                src="https://www.googletagmanager.com/ns.html?id=GTM-MMJ9JFK"
+                height="0"
+                width="0"
+                style="
+                    display:none;
+                    visibility:hidden;
+                "
+            ></iframe>
+        </noscript>
+
+        <div id="performancemeter" class="off ns production">
+            <h1 id="performancemeter_header">loading...</h1>
+
+            <div id="devbuildid"></div>
+        </div>
+    </body>
+</html>
